@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "image": "WhatsApp Image 2026-11-11 at 13.42.10(1).jpeg",
+      "category": "borse",
+      "title_it": "Borse con carattere",
+      "description_it": "Filati morbidi, dettagli scelti con cura.",
+      "title_en": "Bags with character",
+      "description_en": "Soft yarns and thoughtfully chosen details."
+    },
+    {
+      "image": "WhatsApp Image 2026-11-11 at 13.42.10(2).jpeg",
+      "category": "borse",
+      "title_it": "Colori da indossare",
+      "description_it": "Abbinamenti unici e lavorazioni intrecciate.",
+      "title_en": "Colours to carry",
+      "description_en": "One-of-a-kind colour pairings and woven textures."
+    },
+    {
+      "image": "WhatsApp Image 2026-11-11 at 13.42.10.jpeg",
+      "category": "borse",
+      "title_it": "Intrecci e dettagli",
+      "description_it": "Un accessorio creato punto dopo punto.",
+      "title_en": "Texture & detail",
+      "description_en": "An accessory made stitch by stitch."
+    },
+    {
+      "image": "Immagine 2026-11-12 213723.png",
+      "category": "casa",
+      "title_it": "Trame morbide",
+      "description_it": "Filati e lavorazioni artigianali per la casa.",
+      "title_en": "Soft textures",
+      "description_en": "Handmade yarn textures to bring warmth into your home."
+    },
+    {
+      "image": "Immagine 2026-11-12 213735.png",
+      "category": "casa",
+      "title_it": "Ghirlanda delle feste",
+      "description_it": "Un tocco fatto a mano per accogliere il Natale.",
+      "title_en": "A festive wreath",
+      "description_en": "A handmade welcome for the holiday season."
+    },
+    {
+      "image": "Immagine 2026-11-12 213745.png",
+      "category": "casa",
+      "title_it": "Benvenuto autunno",
+      "description_it": "Una ghirlanda intrecciata con i colori della stagione.",
+      "title_en": "Welcome, autumn",
+      "description_en": "A handwoven wreath in the colours of the season."
+    },
+    {
+      "image": "Immagine 2026-11-12 213707.png",
+      "category": "regali",
+      "title_it": "Un pensiero speciale",
+      "description_it": "Una sorpresa artigianale, pronta da donare.",
+      "title_en": "A thoughtful gift",
+      "description_en": "A handmade surprise, ready to give."
+    },
+    {
+      "image": "Screenshot 2026-11-12 213441.png",
+      "category": "regali",
+      "title_it": "Una copertina da coccolare",
+      "description_it": "Una copertina morbida e colorata, fatta a mano.",
+      "title_en": "A blanket to cuddle",
+      "description_en": "A soft, colourful blanket, lovingly handmade."
+    }
+  ]
+}
