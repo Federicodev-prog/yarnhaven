@@ -1,0 +1,40 @@
+backend:
+  name: github
+  repo: Federicodev-prog/yarnhaven
+  branch: main
+
+# Le immagini esistenti sono nella cartella principale del repository.
+# Manteniamo la stessa posizione così il CMS può mostrare le anteprime e caricare nuove foto.
+media_folder: ""
+public_folder: "/"
+site_url: "https://yarn-haven-yds.netlify.app"
+display_url: "https://yarn-haven-yds.netlify.app"
+locale: "it"
+
+collections:
+  - name: "catalogo"
+    label: "Catalogo"
+    files:
+      - name: "creazioni"
+        label: "Creazioni"
+        file: "content/creazioni.json"
+        format: "json"
+        fields:
+          - label: "Creazioni in vetrina"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title_it}} · {{fields.category}}"
+            fields:
+              - { label: "Foto", name: "image", widget: "image" }
+              - { label: "Foto dettaglio (facoltativa)", name: "detail_image", widget: "image", required: false }
+              - label: "Categoria"
+                name: "category"
+                widget: "select"
+                options:
+                  - { label: "Borse e accessori", value: "borse" }
+                  - { label: "Casa e decorazioni", value: "casa" }
+                  - { label: "Idee regalo", value: "regali" }
+              - { label: "Titolo (italiano)", name: "title_it", widget: "string" }
+              - { label: "Descrizione (italiano)", name: "description_it", widget: "text" }
+              - { label: "Title (English)", name: "title_en", widget: "string" }
+              - { label: "Description (English)", name: "description_en", widget: "text" }
